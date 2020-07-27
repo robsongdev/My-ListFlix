@@ -1,5 +1,5 @@
 import React from 'react';
-import Robflix from '../../assets/img/Robflix.png'
+import Logo from '../../assets/img/Logo.png'
 import './Menu.css'
 import Button from '../Button/index'
 
@@ -8,7 +8,7 @@ function Menu(){
     return(
         <nav className='Menu'>
             <a href='/'>
-                <img className='Logo' src={Robflix} alt = 'Robflix logo'/>
+                <img className='Logo' src={Logo} alt = 'Robflix logo'/>
             </a>
 
             
