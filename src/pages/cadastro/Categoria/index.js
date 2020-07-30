@@ -42,7 +42,7 @@ function CadastroCategoria(){
         ]);
       });
       
-    })
+    },[])
     
     return(
       <PageDefault>
