@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-import React, { useEffect, useState } from 'react';
-import BannerMain from '../../components/BannerMain';
-import Carousel from '../../components/Carousel';
-import categoriasRepository from '../../repositories/categorias'
-import PageDefault from '../../components/PageDefault';
-
-function Home() {
-
-  const[dadosIniciais, setDadosIniciais] = useState([]);
-
-  useEffect(()=>{
-    categoriasRepository.getAllWidthVideos()
-    .then((categoriasComVideos) => {
-      console.log(categoriasComVideos)
-      setDadosIniciais(categoriasComVideos)
-    })
-    .catch((err)=>{
-      console.log(err.message)
-    })
-      
-    },[]);
-
-
-=======
 /* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
 // import dadosIniciais from '../../data/dados_iniciais.json';
@@ -45,12 +20,10 @@ function Home() {
         console.log(err.message);
       });
   }, []);
->>>>>>> ec180bcffff187abac85494c8e378184944a8f97
 
   return (
     <PageDefault paddingAll={0}>
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
-<<<<<<< HEAD
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
@@ -77,34 +50,6 @@ function Home() {
         );
       })}
 
-=======
-
-      {dadosIniciais.map((categoria, indice) => {
-        if (indice === 0) {
-          return (
-            <div key={categoria.id}>
-              <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
-              />
-              <Carousel
-                ignoreFirstVideo
-                category={dadosIniciais[0]}
-              />
-            </div>
-          );
-        }
-
-        return (
-          <Carousel
-            key={categoria.id}
-            category={categoria}
-          />
-        );
-      })}
-
->>>>>>> ec180bcffff187abac85494c8e378184944a8f97
       {/* <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
