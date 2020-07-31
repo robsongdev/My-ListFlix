@@ -1,9 +1,10 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 
-const Button = styled(Link)` /*agindo como Link <=(a)*/
+
+const Button = styled.button` /*agindo como Link <=(a)*/
 color: var(--white);
 border: 1px solid var(--white);
+background: var(--background);
 box-sizing: border-box;
 cursor: pointer;
 padding: 16px 24px;
