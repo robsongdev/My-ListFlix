@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias'
 
 function CadastroCategoria() {
+  const history = useHistory();
   const valoresIniciais = {
     nome: '',
     descricao: '',
@@ -27,24 +29,6 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Front End',
-    //       descricao: 'Uma categoria bacanudassa',
-    //       cor: '#cbd1ff',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Back End',
-    //       descricao: 'Outra categoria bacanudassa',
-    //       cor: '#cbd1ff',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
   }, []);
 
   return (
@@ -62,6 +46,15 @@ function CadastroCategoria() {
         ]);
 
         clearForm();
+
+        categoriasRepository.create({
+          titulo: values.nome,
+          cor: values.cor,
+        })
+          .then(() => {
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
+          });
       }}
       >
 
@@ -72,14 +65,8 @@ function CadastroCategoria() {
           onChange={handleChange}
         />
 
-        <FormField
-          label="Descrição"
-          type="textarea"
-          name="descricao"
-          value={values.descricao}
-          onChange={handleChange}
-        />
-
+        
+        
         <FormField
           label="Cor"
           type="color"
@@ -107,6 +94,8 @@ function CadastroCategoria() {
           </li>
         ))}
       </ul>
+      <br></br>
+      <br></br>
 
       <Link to="/">
         Ir para home

@@ -8,7 +8,34 @@ import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
-
+  
+  const [videos, setVideos] = useState([]);
+  useEffect(() => {
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/videos'
+      : 'https://mylistflix.herokuapp.com/videos';
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setVideos([
+          ...resposta,
+        ]);
+      });
+  }, []);
+ 
+ // em andamento (atualização do Banner automatico)
+  var timer = setInterval(atualizarVideo,1000);
+  
+  var indiceVideo = 0
+  function atualizarVideo(){
+    indiceVideo += 1
+    if (indiceVideo >= videos.length){
+      clearInterval(timer)
+    }
+    console.log(indiceVideo)
+  }
+  
+  
   useEffect(() => {
     // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithVideos()
@@ -23,6 +50,7 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
+      
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
       {dadosIniciais.map((categoria, indice) => {
@@ -30,10 +58,11 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
-                url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+                videoTitle={videos[indiceVideo].titulo}
+                url={videos[indiceVideo].url}
+                videoDescription={videos[indiceVideo].description}
               />
+              
               <Carousel
                 ignoreFirstVideo
                 category={dadosIniciais[0]}

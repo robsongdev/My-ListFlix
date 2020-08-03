@@ -34,6 +34,11 @@
       "id": 7,
       "titulo": "Animação",
       "cor": "#ff0000"
+    },
+    {
+      "titulo": "Filmes de Robson",
+      "cor": "#4eceef",
+      "id": 8
     }
   ],
   "videos": [
@@ -42,6 +47,18 @@
       "categoriaId": 1,
       "titulo": "Coraline",
       "url": "https://www.youtube.com/watch?v=m9bOpeuvNwY"
+    },
+    {
+      "titulo": "Constantine",
+      "url": "https://www.youtube.com/watch?v=jR9EXVsXRPs",
+      "categoriaId": 8,
+      "id": 2
+    },
+    {
+      "titulo": "1917",
+      "url": "https://www.youtube.com/watch?v=_3gy6K7LXHg",
+      "categoriaId": 3,
+      "id": 3
     }
   ]
 }
