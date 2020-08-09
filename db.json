@@ -1,44 +1,9 @@
 {
   "categorias": [
     {
-      "id": 1,
       "titulo": "Suspense",
-      "cor": "#9900ff"
-    },
-    {
-      "id": 2,
-      "titulo": "Terror",
-      "cor": "#1a1aff"
-    },
-    {
-      "id": 3,
-      "titulo": "Guerra",
-      "cor": "#00e600"
-    },
-    {
-      "id": 4,
-      "titulo": "Comedia",
-      "cor": "orange"
-    },
-    {
-      "id": 5,
-      "titulo": "Drama",
-      "cor": "#1ac6ff"
-    },
-    {
-      "id": 6,
-      "titulo": "Anime",
-      "cor": "#ff9933"
-    },
-    {
-      "id": 7,
-      "titulo": "Animação",
-      "cor": "#ff0000"
-    },
-    {
-      "titulo": "Filmes de Robson",
-      "cor": "#4eceef",
-      "id": 8
+      "cor": "#2d24ae",
+      "id": 1
     }
   ],
   "videos": [
@@ -47,18 +12,6 @@
       "categoriaId": 1,
       "titulo": "Coraline",
       "url": "https://www.youtube.com/watch?v=m9bOpeuvNwY"
-    },
-    {
-      "titulo": "Constantine",
-      "url": "https://www.youtube.com/watch?v=jR9EXVsXRPs",
-      "categoriaId": 8,
-      "id": 2
-    },
-    {
-      "titulo": "1917",
-      "url": "https://www.youtube.com/watch?v=_3gy6K7LXHg",
-      "categoriaId": 3,
-      "id": 3
     }
   ]
 }
