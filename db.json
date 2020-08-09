@@ -4,6 +4,11 @@
       "titulo": "Suspense",
       "cor": "#2d24ae",
       "id": 1
+    },
+    {
+      "titulo": "Anime",
+      "cor": "red",
+      "id": 1
     }
   ],
   "videos": [
