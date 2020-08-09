@@ -6,17 +6,149 @@
       "id": 1
     },
     {
+      "titulo": "Guerra",
+      "cor": "#1c821f",
+      "id": 2
+    },
+    {
+      "titulo": "Drama",
+      "cor": "#690b83",
+      "id": 3
+    },
+    {
       "titulo": "Anime",
-      "cor": "red",
-      "id": 1
+      "cor": "#6a1111",
+      "id": 4
+    },
+    {
+      "titulo": "Animação",
+      "cor": "#189dc9",
+      "id": 5
+    },
+    {
+      "titulo": "Comedia",
+      "cor": "#b6c20a",
+      "id": 6
+    },
+    {
+      "titulo": "Terror",
+      "cor": "#3d3d3d",
+      "id": 7
+    },
+    {
+      "titulo": "MDS! Como você não assistiu isso?",
+      "cor": "#14548f",
+      "id": 8
     }
   ],
   "videos": [
     {
       "id": 1,
-      "categoriaId": 1,
+      "categoriaId": 8,
       "titulo": "Coraline",
       "url": "https://www.youtube.com/watch?v=m9bOpeuvNwY"
+    },
+    {
+      "titulo": "1917",
+      "url": "https://www.youtube.com/watch?v=dglqGGyWbVo",
+      "categoriaId": 2,
+      "id": 2
+    },
+    {
+      "titulo": "O Irlandês",
+      "url": "https://www.youtube.com/watch?v=L78AvuU1FLg",
+      "categoriaId": 3,
+      "id": 3
+    },
+    {
+      "titulo": "Um Lindo Dia na Vizinhança",
+      "url": "https://www.youtube.com/watch?v=2R5q-vqpbZg",
+      "categoriaId": 3,
+      "id": 4
+    },
+    {
+      "titulo": "Táxi Driver",
+      "url": "https://www.youtube.com/watch?v=PQhQWubUnws",
+      "categoriaId": 3,
+      "id": 5
+    },
+    {
+      "titulo": "Tempo Contigo",
+      "url": "https://www.youtube.com/watch?v=OZHmiJm-N58",
+      "categoriaId": 4,
+      "id": 6
+    },
+    {
+      "titulo": "Klaus",
+      "url": "https://www.youtube.com/watch?v=8JlEfYl8uGI",
+      "categoriaId": 5,
+      "id": 7
+    },
+    {
+      "titulo": "Fora de Série",
+      "url": "https://www.youtube.com/watch?v=KAUhY2gBTHQ",
+      "categoriaId": 6,
+      "id": 8
+    },
+    {
+      "titulo": "Meu Nome é Delimite",
+      "url": "https://www.youtube.com/watch?v=Jt2p7WFZanI",
+      "categoriaId": 6,
+      "id": 9
+    },
+    {
+      "titulo": "Era uma vez em... Hollywood",
+      "url": "https://www.youtube.com/watch?v=OYGUQmJlgiE",
+      "categoriaId": 6,
+      "id": 10
+    },
+    {
+      "titulo": "The peanut butter falcon",
+      "url": "https://www.youtube.com/watch?v=B9F5FgVm5tI",
+      "categoriaId": 6,
+      "id": 11
+    },
+    {
+      "titulo": "Joias Brutas",
+      "url": "https://www.youtube.com/watch?v=IOSP5uEbTUc",
+      "categoriaId": 6,
+      "id": 12
+    },
+    {
+      "titulo": "The Nightingale",
+      "url": "https://www.youtube.com/watch?v=aKfnPEhc2Kg",
+      "categoriaId": 1,
+      "id": 13
+    },
+    {
+      "titulo": "Dia de Trabalho Mortal",
+      "url": "https://www.youtube.com/watch?v=KFdKcggyUmo",
+      "categoriaId": 1,
+      "id": 14
+    },
+    {
+      "titulo": "O Farol",
+      "url": "https://www.youtube.com/watch?v=aJoGdiyvdYs",
+      "categoriaId": 7,
+      "id": 15
+    },
+    {
+      "titulo": "Os Tigres não tem Medo",
+      "url": "https://www.youtube.com/watch?v=PbmlkgwCfWM",
+      "categoriaId": 7,
+      "id": 16
+    },
+    {
+      "titulo": "1408",
+      "url": "https://www.youtube.com/watch?v=WMkyXCh9Oik",
+      "categoriaId": 7,
+      "id": 17
+    },
+    {
+      "titulo": "Vastidão da Noite",
+      "url": "https://www.youtube.com/watch?v=vilDh1O0Smk",
+      "categoriaId": 1,
+      "id": 18
     }
   ]
 }

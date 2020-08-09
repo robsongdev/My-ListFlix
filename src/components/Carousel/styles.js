@@ -53,3 +53,9 @@ export const VideoCardGroupContainer = styled.section`
   margin-left: 5%;
   margin-bottom: 16px;
 `;
+
+export const NomeFilme = styled.p`
+text-align: center;
+font-size: 20px;
+
+`

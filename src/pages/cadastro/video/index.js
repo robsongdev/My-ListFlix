@@ -27,7 +27,7 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Cadastro de Video</h1>
+      <h1>Cadastro de Filme</h1>
 
       <form onSubmit={(event) => {
         event.preventDefault();

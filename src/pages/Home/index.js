@@ -24,17 +24,8 @@ function Home() {
   }, []);
  
  // em andamento (atualização do Banner automatico)
-  var timer = setInterval(atualizarVideo,1000);
-  
-  var indiceVideo = 0
-  function atualizarVideo(){
-    indiceVideo += 1
-    if (indiceVideo >= videos.length){
-      clearInterval(timer)
-    }
-    console.log(indiceVideo)
-  }
-  
+ var indiceVideo = 2;
+
   
   useEffect(() => {
     
@@ -64,7 +55,7 @@ function Home() {
               />
               
               <Carousel
-                ignoreFirstVideo
+                //ignoreFirstVideo
                 category={dadosIniciais[0]}
               />
             </div>
