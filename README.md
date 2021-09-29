@@ -1,68 +1,108 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img alt="icon" title="#icon" src="https://i.imgur.com/O14s0Df.png" width="100px" align = "left"> <br>
+<h1 align="center"> My Listflix </h1>
 
-## Available Scripts
+<p align="center">Semana disponibilizada pela Alura gratuitamente, para uma inicialização no React, produzindo um site completo com API, semelhante com a Netflix.
+  <br/>
+  Link do Projeto: <a href="https://robflix.vercel.app/" >Alurakut</a>
+</p>
 
-In the project directory, you can run:
 
-### `yarn start`
+<p align="center">
+  <img alt="Tela" title="#Tela" src="https://imgur.com/a22b8SU.png" width="400px">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Tela" title="#Tela" src="https://imgur.com/CevMtH8.png" width="400px">
+  
+  <img alt="Tela" title="#Tela" src="https://imgur.com/bOIyGPu.png" width="400px">
+  
+  <img alt="Tela" title="#Tela" src="https://imgur.com/32sq8C7.png" width="400px">
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+<h4 align="center"> 
+	🚧  APP 📱 Concluído 🚀 🚧
+</h4>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-como-rodar-o-projeto">Como Rodar</a> •
+  <a href="#-autor">Autor</a> •
+  <a href="#-licença">Licença</a> •
+  
+</p>
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Sobre o Projeto
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+No My Listflix o usuário cria sua própria lista de filmes usando o trailer disponibilizado pelo YouTube apenas com o link do mesmo, separando por categoria com cores e nomes criado também pelo usuário;<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Foi criado um site tendo como base a Netflix, produzido desde a API de dados no backend ao frontend com styled-components em React.
+  
+  
+  
+---
 
-### `yarn eject`
+## 🛠 Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### [JavaScript](https://www.javascript.com/) com [React](https://pt-br.reactjs.org/) ultilizando as seguintes dependencias:
+  
+-  **[concurrently](https://www.npmjs.com/package/concurrently)**
+-  **[json-server](https://www.npmjs.com/package/json-server)**
+-  **[react](https://www.npmjs.com/package/react)**
+-  **[react-dom](https://www.npmjs.com/package/react-dom)**
+-  **[react-router-dom](https://www.npmjs.com/package/react-router-dom)**
+-  **[react-scripts](https://www.npmjs.com/package/react-scripts)**
+-  **[react-slick](https://www.npmjs.com/package/react-router-dom)**
+-  **[styled-components](https://www.npmjs.com/package/styled-components)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Para mais detalhes, veja o arquivo  [package.json](./package.json)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### **Utilitários**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
+---
 
-## Learn More
+## 📝 Funcionalidades
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] usuário cria sua própria lista de filmes usando o trailer disponibilizado pelo YouTube
+- [x] Cria categorias de filmes
+  - selecionando nome e cor
+  - visualiza as categorias ja criadas 
+- [x] Usuario separa os filmes por categorias
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎲 Como Rodar o Projeto
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```bash
 
-### Analyzing the Bundle Size
+# Clone este repositório
+$ git clone https://github.com/robsongdev/My-ListFlix.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# Acesse a pasta do projeto no terminal/cmd
+$ cd My-ListFlix
 
-### Making a Progressive Web App
+# Instale as dependências
+$ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+# Execute a aplicação
+$ npm start
+```
+---
 
-### Advanced Configuration
+## 👨‍💻 Autor
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<img style = "border-radius: 50%;" src = "https://avatars.githubusercontent.com/u/61766294?s=460&u=63adaa91f7c8f4a54950026f5a69a44f35e97030&v=4" width = "100px;" alt = "Avatar" />
+<sub> <b> Robson Gabriel</b> </sub>
 
-### Deployment
+Feito com ❤️ por Robson 👋🏽 Entre em contato!<br>
+[![Gmail Badge](https://img.shields.io/badge/-robsong369@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:robsong369@gmail.com)](mailto:robsong369@gmail.com)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `yarn build` fails to minify
+---
+## 📝 Licença
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<a href="./LICENSE">
+  <img alt="ban-license" src="https://img.shields.io/apm/l/pack">
+</a>
