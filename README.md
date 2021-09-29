@@ -3,7 +3,7 @@
 
 <p align="center">Semana disponibilizada pela Alura gratuitamente, para uma inicialização no React, produzindo um site completo com API, semelhante com a Netflix.
   <br/>
-  Link do Projeto: <a href="https://robflix.vercel.app/" >Alurakut</a>
+  Link do Projeto: <a href="https://robflix.vercel.app/" >My Listflix</a>
 </p>
 
 
